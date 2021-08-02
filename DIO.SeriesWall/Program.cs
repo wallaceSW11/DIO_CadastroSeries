@@ -101,7 +101,7 @@ namespace DIO.SeriesWall
         private static void AtualizarSerie()
         {
             LimparTela();
-            TituloMenu("Atualizar série");
+            TituloMenu("== Atualizar série ==");
             Console.WriteLine("Digite o código da série: ");
             int entradaId = int.Parse(Console.ReadLine());
             
