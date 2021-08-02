@@ -86,7 +86,7 @@ namespace DIO.SeriesWall
         private static void InserirSerie()
         {     
             LimparTela();            
-            TituloMenu("Cadstrar nova série");
+            TituloMenu("== Cadstrar nova série ==");
             Console.WriteLine();
 
             Console.WriteLine("Lista de categorias:");
